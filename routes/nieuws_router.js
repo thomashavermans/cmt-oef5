@@ -12,6 +12,7 @@ nieuws.get('/items/:id', function(req, res) {
     }
     teller++;
   }
+  
   if (item !== "") {
     res.render("nieuws", {
       item: item

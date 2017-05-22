@@ -1,8 +1,11 @@
 body {
   font-family: helvetica;
-  width: 90%;
   margin: 25px auto;
   line-height: 1.4em;
+}
+
+.container-fluid {
+  padding: 0 50px !important;
 }
 
 section {
@@ -17,6 +20,13 @@ p {
   margin: 10px 0;
 }
 
+h1 {
+  color: green;
+  margin: 0 !important;
+  padding: 30px;
+  text-align: center;
+}
+
 h2 {
   margin: 25px 0;
 }
@@ -26,7 +36,8 @@ h3 {
 }
 
 nav {
-  margin: 25px 0;
+  margin: 5px 0 25px 0;
+  text-align: center;
 }
 
 nav a {
